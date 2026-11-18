@@ -13,6 +13,10 @@ int main(){
         message("Invalid input. Please enter an integer.");
         return 1; 
     }
+    if(inp == 0){
+        message("A 0; Do with that information what you want ");
+        return 0;
+    }
     int res = inp % 2;
     if(res != 0){
         message("The number is odd");
